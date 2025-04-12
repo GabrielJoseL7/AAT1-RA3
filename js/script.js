@@ -188,7 +188,7 @@ function handleNextButton(){
 function showScore(){
     reTake.classList.add("activeQuiz");
     quiz.classList.remove("activeQuiz")
-    scores.innerHTML = `Your Score is: ${score} out of ${questions.length}!`;
+    scores.innerHTML = `Tu puntaje es: ${score} de ${questions.length}!`;
     btnReYes.addEventListener('click', function(){
         iniciarExamen();
         reTake.classList.remove("activeQuiz");
