@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&family=Walter+Turncoat&display=swap" rel="stylesheet">
+    <title>Cuestionario Preguntas y Respuestas</title>
+</head>
+<body>
+    <div id="intro" class="intro">
+        <h2 class="title" id="title">Are you ready to take the quiz?</h2>
+        <p class="description" id="description">We will take a small 10 questions quiz. </p>
+        <button class="btnStart" id="btnYes">Yes</button>
+        <button class="btnStart" id="btnNo">No</button>
+    </div>
+    <div id="Quiz" class="Quiz">
+        <h2 id="question"></h2>
+        <div id="answer-buttons">
+            <button class="reply1"></button> 
+            <button class="reply1"></button>
+            <button class="reply1"></button>
+            <button class="reply1"></button>
+        </div>
+        <button class="btnStart" id="btn-Next"></button>
+    </div>
+    <div class="reTake" id="reTake">
+        <h2 id="score" class="title">Your score is: </h2>
+        <h3 id="scoreQuestion" class="description">Do you want to retake the text?</h3>
+        <button class="btnStart" id="btnReYes">Yes</button>
+        <button class="btnStart" id="btnReNo">No</button>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
