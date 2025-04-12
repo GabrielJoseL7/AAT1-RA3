@@ -88,15 +88,6 @@ const questions = [
         { text: "Spiderman", correct: true},
         { text: "Iron Man", correct: false}
       ]
-    },
-    {
-      question: "¿Cuál es el animal más grande del mundo?",
-      answers: [
-        { text: "Tiburón", correct: false},
-        { text: "Jirafa", correct: false},
-        { text: "Manatí", correct: false},
-        { text: "Ballena Azul", correct: true}
-      ]
     }
   ];
 
